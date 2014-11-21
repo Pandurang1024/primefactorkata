@@ -17,6 +17,7 @@ rescue Chef::Exceptions::RecipeNotFound
 end
 
 
+package "curl"
 
 cookbook_file "/etc/apache2/sites-available/jenkins.conf" do
   source "jenkins.conf"

@@ -97,4 +97,3 @@ end
   end
 end
 
-package "curl"
