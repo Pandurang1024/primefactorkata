@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: kings
+Build-Jdk: 1.6.0_65
+Extension-Name: cucumber-reports
+Specification-Title: This project provides pretty html reports for Cuc
+ umber. It works by generating html from the cucumber json
+         report formatter. So can be used anywhere a json report is ge
+ nerated. Current use is in the cucumber jenkins
+         plugin and a maven mojo to generate the same report from mvn 
+ command line when running locally.
+Implementation-Title: cucumber-reports
+Implementation-Version: 0.0.23
+Group-Id: net.masterthought.jenkins
+Short-Name: cucumber-reports
+Long-Name: cucumber-reports
+Url: http://jenkins-ci.org/plugin/cucumber-reports/
+Plugin-Version: 0.0.23
+Hudson-Version: 1.511
+Jenkins-Version: 1.511
+Plugin-Developers: Kingsley Hendrickse:kingsleyh:kingsley@masterthough
+ t.net
+
