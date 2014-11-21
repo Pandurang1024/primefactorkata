@@ -10,9 +10,7 @@
     "apache2": [
 
     ],
-    "ruby": [
-
-    ]
+    
   },
   "providing": {
     "rails": [
