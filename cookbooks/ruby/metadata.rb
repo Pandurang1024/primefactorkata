@@ -9,7 +9,7 @@ version          '1.3.0'
 # This is a community cookbook:
 # http://community.opscode.com/cookbooks/rbenv
 # https://github.com/RiotGames/rbenv-cookbook
-depends 'rbenv', '~> 1.6.5'
+#depends 'rbenv', '~> 1.6.5'
 
 # This is required to install ruby on windows
 #depends '7-zip', '~> 1.0.0'
