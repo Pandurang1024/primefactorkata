@@ -95,10 +95,7 @@ execute 'updatesqlite' do
   command 'bundle update sqlite3'
 end
 
-execute 'bundleInstall' do
-  cwd '/var/chef/prime_factors_kata'
-  command 'bundle install'
-end
+
 
 execute 'updatedb' do
   cwd '/var/chef/prime_factors_kata'
