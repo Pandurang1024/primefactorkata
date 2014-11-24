@@ -85,14 +85,14 @@ class NumbersController < ApplicationController
     end
 
     #Fix Code
-    def generate(n)
+    def generate1(n)
     return [] if n == 1
     factor = (2..n).find {|x| n % x == 0} 
     [factor] + generate(n / factor) 
     end
 
     #Need fix here
-    def generate1(n)
+    def generate(n)
     return n
     end
 
