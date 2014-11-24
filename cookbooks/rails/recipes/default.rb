@@ -31,10 +31,8 @@
 #end
 
 
-
-execute 'rvmInstall' do
-cwd '/opt'
-command '\curl -sSL https://get.rvm.io | bash -s stable --rails'
+package "rails" do
+  action :install
 end
 
 
