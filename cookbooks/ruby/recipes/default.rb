@@ -8,3 +8,7 @@
 #
 
 
+execute 'setRubyVersion' do
+cwd '/opt'
+command 'rvm use ruby-2.1.5'
+end
