@@ -19,17 +19,6 @@
 
 
 
-#include_recipe "ruby"
-#include_recipe "myApp"
-
-#execute 'install rails gem' do
- # command 'gem install rails'
-#end
-
-# package "rails" do
-#  action :install
-#end
-
 
 package "rails" do
   action :install

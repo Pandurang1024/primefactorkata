@@ -5,9 +5,7 @@ description       "Installs rails and provides a sample template for use with pa
 long_description  IO.read(File.join(File.dirname(__FILE__), 'README.rdoc'))
 version           "0.8"
 
-%w{ ruby apache }.each do |cb|
-  depends cb
-end
+
 
 %w{ ubuntu debian centos redhat fedora}.each do |os|
   supports os
