@@ -23,7 +23,7 @@
 
 case node['platform_family']
 when 'debian'
-  include_recipe 'apt::default'
+ # include_recipe 'apt::default'
 
   apt_repository 'jenkins' do
     uri          'http://pkg.jenkins-ci.org/debian'
