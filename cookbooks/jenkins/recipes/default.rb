@@ -41,17 +41,6 @@ bash "jenkins" do
   code "opt/jenkins.sh"
 end
 
-#execute 'rvmkey' do
- # cwd '/opt'
-  #command 'gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3'
-#end
-
-
-#execute 'rvmInstall' do
-#cwd '/opt'
-#command '\curl -sSL https://get.rvm.io | bash -s stable --ruby'
-#end
-
 
 cookbook_file "/opt/installGems.sh" do
   source "installGems.sh"
